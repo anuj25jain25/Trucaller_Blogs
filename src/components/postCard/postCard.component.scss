@@ -1,0 +1,54 @@
+.card-box {
+  display: flex;
+  margin: 30px 10px;
+  padding: 20px;
+
+  .post-link {
+    text-decoration: inherit;
+    color: inherit;
+  }
+
+  .thumbnail-wrapper {
+    flex: 1;
+    padding: 0px 20px;
+
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .content-wrapper {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+
+    .date {
+      font-style: italic;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      margin-bottom: 10px;
+      color: grey;
+    }
+
+    .title {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .excerpt {
+      margin-top: 20px;
+      font-size: 13px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+}
+
+.card-box-row {
+  flex-direction: row;
+}
+
+.card-box-row-reverse {
+  flex-direction: row-reverse;
+}
